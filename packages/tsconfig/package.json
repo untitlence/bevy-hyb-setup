@@ -1,0 +1,5 @@
+{
+  "name": "@repo/tsconfig",
+  "type": "module",
+  "private": true
+}

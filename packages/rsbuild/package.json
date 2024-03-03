@@ -1,0 +1,18 @@
+{
+  "name": "@repo/rsbuild",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "prebuild": "tsup"
+  },
+  "dependencies": {
+    "vite": "5.1.4"
+  },
+  "devDependencies": {
+    "@types/bun": "1.0.8",
+    "@repo/tsconfig": "workspace:",
+    "tsup": "8.0.2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "bevy-hyb-setup",
+  "type": "module",
+  "scripts": {
+    "prebuild": "turbo prebuild",
+    "repo": "bun --bun turbo"
+  },
+  "workspaces": [
+    "packages/*",
+    ".wasm_crates/*",
+    "app"
+  ],
+  "devDependencies": {
+    "@repo/tsconfig": "workspace:",
+    "@types/bun": "latest",
+    "@types/web": "0.0.140",
+    "turbo": "1.12.4",
+    "typescript": "5.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "5.3.3"
+  }
+}

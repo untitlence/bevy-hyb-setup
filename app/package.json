@@ -1,0 +1,24 @@
+{
+  "name": "@repo/app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@crate/hello": "workspace:",
+    "react": "canary",
+    "react-dom": "canary",
+    "@vanilla-extract/vite-plugin": "4.0.4",
+    "@vanilla-extract/css": "1.14.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.61",
+    "@types/react-dom": "18.2.19",
+    "@repo/tsconfig": "workspace:",
+    "@repo/rsbuild": "workspace:",
+    "vite": "5.1.4",
+    "@vitejs/plugin-react": "4.2.1"
+  }
+}

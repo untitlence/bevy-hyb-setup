@@ -1,0 +1,14 @@
+{
+  "name": "@crate/hello",
+  "private": true,
+  "type": "module",
+  "main": "dist/crate.js",
+  "types": "dist/crate.d.ts",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build"
+  },
+  "devDependencies": {
+    "@repo/rsbuild": "workspace:"
+  }
+}

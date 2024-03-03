@@ -1,13 +1,17 @@
 {
   "name": "@repo/rsbuild",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "version": "0.1.0",
+  "bin": {
+    "rsbuild": "dist/cli.js"
+  },
   "private": true,
   "scripts": {
     "prebuild": "tsup"
   },
   "dependencies": {
+    "clipanion": "4.0.0-rc.3",
+    "smol-toml": "1.1.4",
     "vite": "5.1.4"
   },
   "devDependencies": {

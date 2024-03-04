@@ -1,9 +1,21 @@
 import '&css/preflight.ts'
-import init, { hello } from '@crate/hello'
+import init, { run } from '@crate/vide'
+import { useEffect } from 'react'
 
-await init()
-console.log(hello())
+function Canvas() {
+	useEffect(() => {
+		init().then(run)
+	}, [])
+
+	return (
+		<div>
+			<canvas id="canvas">
+
+			</canvas>
+		</div>
+	)
+}
 
 export function Root() {
-	return <h1>Hi</h1>
+	return <Canvas/>
 }

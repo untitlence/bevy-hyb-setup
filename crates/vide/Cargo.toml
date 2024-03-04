@@ -1,5 +1,5 @@
 [package]
-name = "hello"
+name = "vide"
 edition.workspace = true
 version.workspace = true
 authors.workspace = true
@@ -9,4 +9,5 @@ license.workspace = true
 crate-type = ["cdylib"]
 
 [dependencies]
-wasm-bindgen = "0.2.91"
+bevy.workspace = true
+wasm-bindgen = "0.2"

@@ -1,10 +1,11 @@
 {
-  "name": "@crate/hello",
+  "name": "@crate/vide",
   "private": true,
   "type": "module",
   "main": "dist/crate.js",
   "types": "dist/crate.d.ts",
   "scripts": {
+    "wasm": "rsbuild wasm",
     "dev": "rsbuild dev",
     "build": "rsbuild build"
   },

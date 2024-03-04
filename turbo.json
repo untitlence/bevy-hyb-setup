@@ -7,6 +7,9 @@
     "prebuild": {
       "outputs": ["dist/**"]
     },
+    "wasm": {
+      "outputs": ["dist/**"]
+    },
     "dev": {
       "cache": false,
       "persistent": true

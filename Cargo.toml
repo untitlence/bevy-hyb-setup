@@ -7,3 +7,6 @@ edition = "2021"
 version = "0.1.0"
 authors = ["Danil Karpenko <limpix31@gmail.com>"]
 license = "MIT"
+
+[workspace.dependencies]
+bevy = "0.13"

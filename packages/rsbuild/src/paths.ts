@@ -2,6 +2,7 @@ import { fileURLToPath } from 'node:url'
 import { join }          from 'node:path'
 
 export const CWD = process.cwd()
+export const SRC = join(CWD, 'src')
 export const WORKSPACE = fileURLToPath(new URL('../../..', import.meta.url))
 export const BIN = fileURLToPath(new URL('../bin', import.meta.url))
 export const TARGET = join(WORKSPACE, 'target', 'wasm32-unknown-unknown')
